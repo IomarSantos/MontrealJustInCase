@@ -8,7 +8,7 @@
       "updated": "2016-10-01T09:00:00.000-05:00",
       "type": "fire_halls"
     },
-    "relationships": [],
+    "relationships": null,
     "links": {
       "self": "http://www.montrealaucasou.com/api/fire_halls.json",
       "origin": "http://donnees.ville.montreal.qc.ca/dataset/casernes-pompiers"
@@ -22,8 +22,8 @@
       "updated": "2016-10-01T09:00:00.000-05:00",
       "type": "spvm_stations"
     },
-    "relationships": [{
-      "child": {
+    "relationships": {
+      "children": [{
         "data": {
           "type": "shapes",
           "id": "15"
@@ -31,8 +31,8 @@
         "meta": {
           "title": "Limites des secteurs de poste de quartier de police"
         }
-      }
-    }],
+      }]
+    },
     "links": {
       "self": "http://www.montrealaucasou.com/api/spvm_stations.json",
       "origin": "http://donnees.ville.montreal.qc.ca/dataset/carte-postes-quartier"
@@ -46,8 +46,8 @@
       "updated": "2016-10-01T09:00:00.000-05:00",
       "type": "water_supplies"
     },
-    "relationships": [{
-      "sibling": {
+    "relationships": {
+      "siblings": [{
         "data": {
           "type": "placemarks",
           "id": "14"
@@ -55,8 +55,8 @@
         "meta": {
           "title": "Lieux publics climatisés"
         }
-      }
-    }],
+      }]
+    },
     "links": {
       "self": "http://www.montrealaucasou.com/api/water_supplies.json",
       "origin": "http://donnees.ville.montreal.qc.ca/dataset/points-eau"
@@ -70,7 +70,7 @@
       "updated": "2016-10-01T09:00:00.000-05:00",
       "type": "emergency_hostels"
     },
-    "relationships": [],
+    "relationships": null,
     "links": {
       "self": "http://www.montrealaucasou.com/api/emergency_hostels.json",
       "origin": "http://donnees.ville.montreal.qc.ca/dataset/centres-hebergement-urgence"
@@ -84,8 +84,8 @@
       "updated": "2016-10-01T09:00:00.000-05:00",
       "type": "water_supplies"
     },
-    "relationships": [{
-      "sibling": {
+    "relationships": {
+      "siblings": [{
         "data": {
           "type": "placemarks",
           "id": "12"
@@ -93,8 +93,8 @@
         "meta": {
           "title": "Points d’eau – mesures d’urgence"
         }
-      }
-    }],
+      }]
+    },
     "links": {
       "self": "http://www.montrealaucasou.com/api/air_conditioning.json",
       "origin": "http://donnees.ville.montreal.qc.ca/dataset/lieux-publics-climatises"
@@ -108,7 +108,7 @@
       "updated": "2016-10-01T09:00:00.000-05:00",
       "type": "hospitals"
     },
-    "relationships": [],
+    "relationships": null,
     "links": {
       "self": "http://www.montrealaucasou.com/api/hospitals.json",
       "origin": "https://www.santemontreal.qc.ca/"
@@ -121,9 +121,8 @@
       "created": "2016-10-01T09:00:00.000-05:00",
       "updated": "2016-10-01T09:00:00.000-05:00",
       "type": "fire_halls"
-
     },
-    "relationships": [{
+    "relationships": {
       "parent": {
         "data": {
           "type": "placemarks",
@@ -133,7 +132,7 @@
           "title": "Postes de police de quartier sur l’île de Montréal"
         }
       }
-    }],
+    },
     "links": {
       "self": "http://www.montrealaucasou.com/api/spvm_stations_shapes.json",
       "origin": "http://donnees.ville.montreal.qc.ca/dataset/limites-pdq-spvm"
