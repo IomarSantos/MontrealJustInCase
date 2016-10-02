@@ -6,7 +6,8 @@
       "title": "Casernes de pompiers sur l’île de Montréal",
       "created": "2016-10-01T09:00:00.000-05:00",
       "updated": "2016-10-01T09:00:00.000-05:00",
-      "type": "fire_halls"
+      "type": "fire_halls",
+      "mapType": "fire_halls"
     },
     "relationships": null,
     "links": {
@@ -20,7 +21,8 @@
       "title": "Postes de police de quartier sur l’île de Montréal",
       "created": "2016-10-01T09:00:00.000-05:00",
       "updated": "2016-10-01T09:00:00.000-05:00",
-      "type": "spvm_stations"
+      "type": "spvm_stations",
+      "mapType": "spvm_stations"
     },
     "relationships": {
       "children": [{
@@ -44,7 +46,8 @@
       "title": "Points d’eau – mesures d’urgence",
       "created": "2016-10-01T09:00:00.000-05:00",
       "updated": "2016-10-01T09:00:00.000-05:00",
-      "type": "water_supplies"
+      "type": "water_supplies",
+      "mapType": "water_supplies"
     },
     "relationships": {
       "siblings": [{
@@ -68,7 +71,8 @@
       "title": "Centres d’hébergement d’urgence",
       "created": "2016-10-01T09:00:00.000-05:00",
       "updated": "2016-10-01T09:00:00.000-05:00",
-      "type": "emergency_hostels"
+      "type": "emergency_hostels",
+      "mapType": "emergency_hostels"
     },
     "relationships": null,
     "links": {
@@ -82,7 +86,8 @@
       "title": "Lieux publics climatisés",
       "created": "2016-10-01T09:00:00.000-05:00",
       "updated": "2016-10-01T09:00:00.000-05:00",
-      "type": "water_supplies"
+      "type": "air_conditioning",
+      "mapType": "water_supplies"
     },
     "relationships": {
       "siblings": [{
@@ -106,7 +111,8 @@
       "title": "Services de santé sur l’île de Montréal",
       "created": "2016-10-01T09:00:00.000-05:00",
       "updated": "2016-10-01T09:00:00.000-05:00",
-      "type": "hospitals"
+      "type": "hospitals",
+      "mapType": "hospitals"
     },
     "relationships": null,
     "links": {
@@ -120,7 +126,8 @@
       "title": "Limites des secteurs de poste de quartier de police",
       "created": "2016-10-01T09:00:00.000-05:00",
       "updated": "2016-10-01T09:00:00.000-05:00",
-      "type": "fire_halls"
+      "type": "fire_halls_zones",
+      "mapType": "fire_halls"
     },
     "relationships": {
       "parent": {
