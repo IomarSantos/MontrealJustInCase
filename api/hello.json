@@ -112,7 +112,7 @@
       "created": "2016-10-01T09:00:00.000-05:00",
       "updated": "2016-10-01T09:00:00.000-05:00",
       "type": "hospitals",
-      "mapType": "hospitals"
+      "mapType": "health"
     },
     "relationships": null,
     "links": {
