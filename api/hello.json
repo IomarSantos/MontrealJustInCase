@@ -108,13 +108,23 @@
     "type": "placemarks",
     "id": "15",
     "attributes": {
-      "title": "Services de santé sur l’île de Montréal",
+      "title": "Hôpitaux et urgences sur l’île de Montréal",
       "created": "2016-10-01T09:00:00.000-05:00",
       "updated": "2016-10-01T09:00:00.000-05:00",
       "type": "hospitals",
       "mapType": "health"
     },
-    "relationships": null,
+    "relationships": {
+      "siblings": [{
+        "data": {
+          "type": "placemarks",
+          "id": "17"
+        },
+        "meta": {
+          "title": "CLSC Centres locaux de services communautaires"
+        }
+      }]
+    },
     "links": {
       "self": "http://www.montrealaucasou.com/api/hospitals.json",
       "origin": "https://www.santemontreal.qc.ca/"
@@ -143,6 +153,31 @@
     "links": {
       "self": "http://www.montrealaucasou.com/api/spvm_stations_shapes.json",
       "origin": "http://donnees.ville.montreal.qc.ca/dataset/limites-pdq-spvm"
+    }
+  }, {
+    "type": "placemarks",
+    "id": "17",
+    "attributes": {
+      "title": "CLSC Centres locaux de services communautaires",
+      "created": "2016-10-12T09:00:00.000-05:00",
+      "updated": "2016-10-12T09:00:00.000-05:00",
+      "type": "clsc",
+      "mapType": "health"
+    },
+    "relationships": {
+      "siblings": [{
+        "data": {
+          "type": "placemarks",
+          "id": "15"
+        },
+        "meta": {
+          "title": "Hôpitaux et urgences sur l’île de Montréal"
+        }
+      }]
+    },
+    "links": {
+      "self": "http://www.montrealaucasou.com/api/clsc.json",
+      "origin": "https://www.santemontreal.qc.ca/"
     }
   }],
   "links": {
