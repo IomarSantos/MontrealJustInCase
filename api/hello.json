@@ -127,7 +127,7 @@
     },
     "links": {
       "self": "http://www.montrealaucasou.com/api/hospitals.json",
-      "origin": "https://www.santemontreal.qc.ca/"
+      "origin": "http://www.sante.gouv.qc.ca/"
     }
   }, {
     "type": "shapes",
@@ -177,7 +177,7 @@
     },
     "links": {
       "self": "http://www.montrealaucasou.com/api/clsc.json",
-      "origin": "https://www.santemontreal.qc.ca/"
+      "origin": "http://www.sante.gouv.qc.ca/"
     }
   }],
   "links": {
