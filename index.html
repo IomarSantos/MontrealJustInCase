@@ -36,13 +36,14 @@
 <h2>
 <a id="a-montréal-open-data-project-geographic-locations-of-public-safety-services" class="anchor" href="#a-montr%C3%A9al-open-data-project-geographic-locations-of-public-safety-services" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>A Montréal Open Data project. Geographic locations of public safety services.</h2>
 
-<p>Montréal Just in Case is an open source <strong>Android</strong> application that provides you with the geographic locations and addresses for four public safety services:</p>
+<p>Montréal Just in Case is an open source <strong>Android</strong> application that provides you with the geographic locations and addresses for five public safety services:</p>
 
 <ul>
-<li>Fire Stations;</li>
-<li>SPVM Stations;</li>
-<li>Water Supplies;</li>
-<li>Emergency Hostels.</li>
+<li>Fire stations;</li>
+<li>Police stations;</li>
+<li>Heat wave measures;</li>
+<li>Emergency hostels;</li>
+<li>Health services;</li>
 </ul>
 
 <p>The source of the data is the City of Montréal on its <a href="http://donnees.ville.montreal.qc.ca/">Open Data Portal</a>.</p>
@@ -50,19 +51,18 @@
 <h2>
 <a id="links" class="anchor" href="#links" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Links</h2>
 
-<p><a href="http://www.montrealaucasou.com/">www.montrealaucasou.com</a></p>
+<p><a href="http://www.montrealaucasou.com/">montrealaucasou.com</a></p>
 
-<p><a href="http://www.montrealjustincase.com/">www.montrealjustincase.com</a></p>
+<p><a href="http://www.montrealjustincase.com/">montrealjustincase.com</a></p>
 
-<p><a href="http://market.android.com/details?id=ca.mudar.mtlaucasou">Available on Android Market</a></p>
+<p><a href="http://market.android.com/details?id=ca.mudar.mtlaucasou">Get it on Google Play</a></p>
 
-<p><a href="http://market.android.com/details?id=ca.mudar.mtlaucasou"><img src="http://www.montrealaucasou.com/images/mtl-just-in-case-qrcode.png" alt="Available on Android Market"></a></p>
+<p><a href="http://market.android.com/details?id=ca.mudar.mtlaucasou"><img src="http://www.montrealaucasou.com/images/mtl-just-in-case-qrcode.png" alt="Get it on Google Play"></a></p>
 
 <p>Also: </p>
 
 <ul>
-<li><a href="http://www.montrealaucasou.com/MtlAuCasOu.apk">Download the APK</a></li>
-<li><a href="https://github.com/mudar/MontrealJustInCase/wiki/">The project's Wiki</a></li>
+<li><a href="https://github.com/mudar/MontrealJustInCase/raw/master/apk/app-release.apk">Download the APK</a></li>
 </ul>
 
 <h2>
@@ -70,25 +70,50 @@
 
 <p>This project was done in collaboration with <a href="http://montrealouvert.net/?page_id=113&amp;lang=en">Montréal Ouvert</a>.</p>
 
-<p><a href="http://montrealouvert.net/?page_id=113&amp;lang=en"><img src="http://montrealouvert.net/wp-content/themes/montrealouvert/images/horizontal-logo-francais.png" alt="Montréal ouvert"></a></p>
-
 <p>Data sources are KML files provided by the City of Montréal:</p>
 
 <ol>
 <li><a href="http://donnees.ville.montreal.qc.ca/dataset/casernes-pompiers">Fire Stations</a></li>
-<li><a href="http://donnees.ville.montreal.qc.ca/dataset/carte-postes-quartier">SPVM Stations</a></li>
+<li>
+<a href="http://donnees.ville.montreal.qc.ca/dataset/carte-postes-quartier">SPVM Stations</a> and their <a href="http://donnees.ville.montreal.qc.ca/dataset/limites-pdq-spvm">coverage areas</a>
+</li>
 <li><a href="http://donnees.ville.montreal.qc.ca/dataset/points-eau">Water Supplies</a></li>
 <li><a href="http://donnees.ville.montreal.qc.ca/dataset/centres-hebergement-urgence">Emergency Hostels</a></li>
 </ol>
 
 <p><a href="http://donnees.ville.montreal.qc.ca/portail/licence/">Open Data License</a> of the City of Montréal.</p>
 
+<p>Locations of health services were manually added from <a href="http://sante.gouv.qc.ca/">Portail santé mieux-être</a> du gouvernement du Québec.</p>
+
 <h2>
-<a id="developed-by" class="anchor" href="#developed-by" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Developed By</h2>
+<a id="credits" class="anchor" href="#credits" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Credits</h2>
+
+<p>Developed By Mudar Noufal  &lt;<a href="mailto:mn@mudar.ca">mn@mudar.ca</a>&gt;</p>
+
+<p>This GPLv3 project includes (thanks!) libraries and derivative work of the following open source projects, all released under the <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License v2.0</a>:</p>
 
 <ul>
-<li>Mudar Noufal  &lt;<a href="mailto:mn@mudar.ca">mn@mudar.ca</a>&gt;</li>
+<li>
+<a href="https://github.com/android/platform_frameworks_support">Android Support Library</a> and <a href="http://source.android.com/">AOSP</a> © The Android Open Source Project.</li>
+<li>
+<a href="https://github.com/square/retrofit">Retrofit</a> © Square, Inc.</li>
+<li>
+<a href="https://github.com/realm/realm-java">Realm Java</a> © Realm Inc.</li>
+<li>
+<a href="https://github.com/google/gson">Gson</a> © Google Inc</li>
+<li>
+<a href="https://github.com/roughike/BottomBar">BottomBar</a> © Iiro Krankka.</li>
+<li>
+<a href="https://github.com/Clans/FloatingActionButton">FloatingActionButton</a> © Dmytro Tarianyk.</li>
+<li>
+<a href="https://github.com/lsjwzh/MaterialLoadingProgressBar">MaterialLoadingProgressBar</a> © lsjwzh.</li>
+<li>
+<a href="https://github.com/sjwall/MaterialTapTargetPrompt">Material Tap Target Prompt</a> © Samuel Wall.</li>
+<li>
+<a href="https://github.com/mikepenz/AboutLibraries">AboutLibraries</a> © Mike Penz.</li>
 </ul>
+
+<p>Also includes Google Play Services and Crashlytics SDK.</p>
 
 <h2>
 <a id="code-license" class="anchor" href="#code-license" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Code license</h2>
@@ -114,23 +139,6 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
 </code></pre>
-
-<p>This GPLv3 project includes (thanks!) libraries and derivative work of the following projects:</p>
-
-<ul>
-<li>
-<a href="https://github.com/JakeWharton/ActionBarSherlock">Action Bar Sherlock</a> © Jake Wharton.</li>
-<li>
-<a href="https://github.com/JakeWharton/ActionBarSherlock">Android MapView Balloons</a> © readyState Software Ltd.</li>
-<li>
-<a href="http://code.google.com/p/iosched/">Google I/O App</a> iosched © Google Inc.</li>
-<li>
-<a href="http://code.google.com/p/android-protips-location/">Android Protips Location</a> © Reto Meier</li>
-<li>
-<a href="http://source.android.com/">AOSP</a> © The Android Open Source Project.</li>
-</ul>
-
-<p>These five projects are all released under the <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License v2.0</a>.</p>
       </section>
     </div>
 
