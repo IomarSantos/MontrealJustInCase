@@ -27,8 +27,8 @@
     "relationships": {
       "children": [{
         "data": {
-          "type": "shapes",
-          "id": "15"
+          "type": "polygons",
+          "id": "16"
         },
         "meta": {
           "title": "Limites des secteurs de poste de quartier de police"
@@ -130,12 +130,12 @@
       "origin": "http://www.sante.gouv.qc.ca/"
     }
   }, {
-    "type": "shapes",
+    "type": "polygons",
     "id": "16",
     "attributes": {
       "title": "Limites des secteurs de poste de quartier de police",
-      "created": "2016-10-01T09:00:00.000-05:00",
-      "updated": "2016-10-01T09:00:00.000-05:00",
+      "created": "2017-12-01T09:00:00.000-05:00",
+      "updated": "2017-12-01T09:00:00.000-05:00",
       "type": "fire_halls_zones",
       "mapType": "fire_halls"
     },
@@ -151,7 +151,7 @@
       }
     },
     "links": {
-      "self": "http://www.montrealaucasou.com/api/spvm_stations_shapes.json",
+      "self": "http://www.montrealaucasou.com/api/spvm_stations_polygons.json",
       "origin": "http://donnees.ville.montreal.qc.ca/dataset/limites-pdq-spvm"
     }
   }, {
